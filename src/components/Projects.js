@@ -9,7 +9,7 @@ import {
 
 import MarkPic from "../images/MarkPic.png";
 
-const Project = () => {
+const Projects = () => {
 	return (
 		<>
 			<br />
@@ -61,4 +61,4 @@ const Project = () => {
 		</>
 	);
 };
-export default About;
+export default Projects;

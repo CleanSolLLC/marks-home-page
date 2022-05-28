@@ -10,7 +10,7 @@ import {
 
 import MarkPic from "../images/MarkPic.png";
 
-const About = () => {
+const Home = () => {
 	return (
 		<>
 			<br />
@@ -104,4 +104,4 @@ const About = () => {
 		</>
 	);
 };
-export default About;
+export default Home;
