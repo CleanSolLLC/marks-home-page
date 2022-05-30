@@ -5,6 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { brands, solid } from "@fortawesome/fontawesome-svg-core/import.macro";
 import Home from "./Home";
 import Projects from "./Projects";
+import Contact from "./Contact";
 
 export default function BasicExample() {
 	return (
@@ -96,15 +97,17 @@ export default function BasicExample() {
 
 					<Nav className="ms-auto links">
 						<Nav.Link style={{ fontSize: "18px" }} as={Link} to={"/"}>
-							Home
+							HOME
 						</Nav.Link>
 						<Nav.Link style={{ fontSize: "18px" }} as={Link} to={"/projects"}>
-							Projects
+							PROJECTS
 						</Nav.Link>
 						<Nav.Link href="#videos">VIDEOS</Nav.Link>
 						<Nav.Link href="#blogs">BLOGS</Nav.Link>
 						<Nav.Link href="#resume">RESUME</Nav.Link>
-						<Nav.Link href="#contact">CONTACT</Nav.Link>
+						<Nav.Link style={{ fontSize: "18px" }} as={Link} to={"/contact"}>
+							CONTACT
+						</Nav.Link>
 					</Nav>
 				</Navbar>
 
@@ -115,6 +118,9 @@ export default function BasicExample() {
 						</Route>
 						<Route path="/projects">
 							<Projects />
+						</Route>
+						<Route path="/contact">
+							<Contact />
 						</Route>
 					</Switch>
 				</div>
