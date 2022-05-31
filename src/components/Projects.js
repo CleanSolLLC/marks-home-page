@@ -10,7 +10,14 @@ import {
 import MyvalueShopper from "../images/MyvalueShopper.png";
 import MyMealPlanner from "../images/MyMealPlanner.png";
 import CTCovidTracker from "../images/CTCovidTracker.png";
-import RubyonRails from "../images/RubyonRails.png";
+import HeaderRubyLogo from "../images/header-ruby-logo.png";
+import rails from "../images/rails.jpg";
+import JsHtmlCss from "../images/JsHtmlCss.png";
+import react from "../images/react.png";
+import redux from "../images/redux.png";
+import postgresql from "../images/postgresql.jpg";
+import vscode from "../images/vscode.png";
+import bootstrap from "../images/bootstrap.png";
 
 const Projects = () => {
 	return (
@@ -19,11 +26,11 @@ const Projects = () => {
 			<br />
 			<Container>
 				<CardGroup>
-					<Card>
+					<Card border="dark" style={{ marginRight: "20px" }}>
 						<Card.Img
-							variant="top"
-							src={MyvalueShopper}
-							alt="My Value Shopper Application Image"
+						//variant="top"
+						//src={MyvalueShopper}
+						//alt="My Value Shopper Application Image"
 						/>
 						<Card.Body>
 							<Card.Title>My Value Shopper</Card.Title>
@@ -53,16 +60,27 @@ const Projects = () => {
 								</ul>
 							</Card.Text>
 						</Card.Body>
-						<Card.Footer>
-							<small className="text-muted">Last updated 3 mins ago</small>
-							<img src={RubyonRails} style={{ width: 75, height: 75 }} />
+						<Card.Footer style={{ background: "white" }}>
+							<img src={HeaderRubyLogo} style={{ width: 45, height: 45 }} />
+							&nbsp;&nbsp;&nbsp;
+							<img src={rails} style={{ width: 45, height: 45 }} />
+							&nbsp;&nbsp;&nbsp;
+							<img src={JsHtmlCss} style={{ width: 120, height: 60 }} />
+							&nbsp;&nbsp;&nbsp;
+							<img src={react} style={{ width: 65, height: 65 }} />
+							&nbsp;
+							<img src={redux} style={{ width: 65, height: 65 }} />
+							<img src={postgresql} style={{ width: 70, height: 70 }} />
+							<img src={vscode} style={{ width: 90, height: 60 }} />
+							&nbsp;
+							<img src={bootstrap} style={{ width: 80, height: 60 }} />
 						</Card.Footer>
 					</Card>
-					<Card>
+					<Card border="dark" style={{ marginRight: "20px" }}>
 						<Card.Img
 							variant="top"
-							src={MyMealPlanner}
-							alt="My Meal Planner Application Image"
+							//src={MyMealPlanner}
+							//alt="My Meal Planner Application Image"
 						/>
 						<Card.Body>
 							<Card.Title>My Meal Planner</Card.Title>
@@ -91,11 +109,11 @@ const Projects = () => {
 							<small className="text-muted">Last updated 3 mins ago</small>
 						</Card.Footer>
 					</Card>
-					<Card>
+					<Card border="dark" style={{ marginRight: "20px" }}>
 						<Card.Img
 							variant="top"
-							src={CTCovidTracker}
-							alt="CT Covid Tracker Application Image"
+							//src={CTCovidTracker}
+							//alt="CT Covid Tracker Application Image"
 						/>
 						<Card.Body>
 							<Card.Title>State of CT Covid Tracker</Card.Title>

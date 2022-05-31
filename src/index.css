@@ -14,3 +14,6 @@
 .p-3 {
 	padding: $spacer !important;
 }
+body {
+	background-color: rgb(105, 189, 225);
+}

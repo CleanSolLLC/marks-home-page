@@ -62,7 +62,7 @@ export default function BasicExample() {
 						</a>{" "}
 						&nbsp; &nbsp;
 						<a
-							href="https://www.youtube.com/channel/UCBOVvppvSR0ggPs8EPDfNUg"
+							href="https://www.youtube.com/channel/UCBOVvppvSR0ggPs8EPDfNUg/videos"
 							target="_blank"
 							rel="noreferrer"
 						>
