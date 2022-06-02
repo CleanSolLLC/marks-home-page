@@ -5,7 +5,6 @@ import {
 	CardGroup,
 	Figure,
 	Badge,
-	Carousel,
 } from "react-bootstrap";
 
 import MarkPic from "../images/MarkPic.jpg";
@@ -28,7 +27,6 @@ const Home = () => {
 								alt="Mark's Profile Image"
 								src={MarkPic}
 							/>
-							>
 							<Fade right>
 								<br />
 								<h1>Mark May</h1>
