@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import { Container, Navbar, Nav, NavLink } from "react-bootstrap";
+import { Navbar, Nav } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { brands, solid } from "@fortawesome/fontawesome-svg-core/import.macro";
 import Home from "./Home";
@@ -102,8 +102,6 @@ export default function BasicExample() {
 						<Nav.Link style={{ fontSize: "18px" }} as={Link} to={"/projects"}>
 							PROJECTS
 						</Nav.Link>
-						<Nav.Link href="#videos">VIDEOS</Nav.Link>
-						<Nav.Link href="#blogs">BLOGS</Nav.Link>
 						<Nav.Link href="#resume">RESUME</Nav.Link>
 						<Nav.Link style={{ fontSize: "18px" }} as={Link} to={"/contact"}>
 							CONTACT

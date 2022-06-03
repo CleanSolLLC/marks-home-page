@@ -9,8 +9,6 @@ import {
 
 import MarkPic from "../images/MarkPic.jpg";
 import Fade from "react-reveal/Fade";
-import Zoom from "react-reveal/Zoom";
-import Flip from "react-reveal/Flip";
 
 const Home = () => {
 	return (

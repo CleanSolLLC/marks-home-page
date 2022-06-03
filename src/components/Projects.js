@@ -1,5 +1,3 @@
-import { Container, Row, Col } from "react-bootstrap";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import { Carousel } from "3d-react-carousal";
 import "../App.css";
 import MyValueShopper from "./MyvalueShopper";
@@ -15,15 +13,12 @@ const callback = function (index) {
 const Projects = () => {
 	return (
 		<>
-			{/* <Container> */}
-			{/* <div className="carouselCenter"></div> */}
 			<Carousel
 				slides={slides}
 				autoplay={false}
 				interval={1000}
 				onSlideChange={callback}
 			/>
-			;{/* </Container> */}
 		</>
 	);
 };
