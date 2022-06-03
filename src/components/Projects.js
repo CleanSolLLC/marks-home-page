@@ -1,16 +1,12 @@
 import { Container, Row, Col } from "react-bootstrap";
-import MyvalueShopper from "../images/MyvalueShopper.png";
-import MyMealPlanner from "../images/MyMealPlanner.png";
-import CTCovidTracker from "../images/CTCovidTracker.png";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import { Carousel } from "3d-react-carousal";
 import "../App.css";
 import MyValueShopper from "./MyvalueShopper";
+import CTCovidTracker from "./CTCovidTracker";
+import MyMealPlanner from "./MyMealPlanner";
 
-let slides = [
-	<Link to={} img src={MyvalueShopper} alt="My Value Shopper Carousel Image" />,
-	<img src={MyMealPlanner} alt="My Meal Planner Carousel Image" />,
-	<img src={CTCovidTracker} alt="CT Covid Tracker Carousel Image" />,
-];
+let slides = [<MyValueShopper />, <CTCovidTracker />, <MyMealPlanner />];
 
 const callback = function (index) {
 	console.log("callback", index);
@@ -20,7 +16,7 @@ const Projects = () => {
 	return (
 		<>
 			{/* <Container> */}
-			<div className="carouselCenter"></div>
+			{/* <div className="carouselCenter"></div> */}
 			<Carousel
 				slides={slides}
 				autoplay={false}
