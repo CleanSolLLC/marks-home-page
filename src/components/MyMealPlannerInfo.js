@@ -1,16 +1,14 @@
 import { Container, Card, Button } from "react-bootstrap";
 import { useState } from "react";
-import rails from "../images/rails.jpg";
+import HeaderRubyLogo from "../images/header-ruby-logo.png";
 import webDevBadges from "../images/webDevBadges.png";
-import react from "../images/react.png";
-import redux from "../images/redux.png";
 import postgresql from "../images/postgresql.jpg";
 import vscode from "../images/vscode.png";
+import rails from "../images/rails.jpg";
 import bstrap from "../images/bstrap.png";
-import HeaderRubyLogo from "../images/header-ruby-logo.png";
-import MyValueShopper from "./MyvalueShopper";
+import MyMealPlanner from "./MyMealPlanner";
 
-const MyValueShopperInfo = () => {
+const MyMealPlannerInfo = () => {
 	const [toggle, setToggle] = useState(false);
 	return (
 		<>
@@ -18,29 +16,24 @@ const MyValueShopperInfo = () => {
 				<Container>
 					<Card>
 						<Card.Body>
-							<Card.Title>My Value Shopper</Card.Title>
+							<Card.Title>My Meal Planner</Card.Title>
 							<Card.Text>
-								Application maintains a list of Amazon Items for users who are
-								not ready to purchase
-								<hr />
+								Users query nutrition information on food items as well as
+								select from over 300,000 recipes <hr />
 								<ul>
 									<li>
 										Developed application using Ruby on Rails on the backend,
-										React JavaScript on the frontend, Redux for state management
-										and PostgreSQL for the database
+										JavaScript on the frontend, Bootstrap for CSS styling and
+										PostgreSQL to persist data to a database
 									</li>
-
 									<li>
 										Designed models in Rails to securely make external API calls
-										to a third-party API site that scrapes the Amazon.com
-										website
+										to a third-party API site
 									</li>
-
 									<li>
-										Utilized JSON Web Tokens for server-side authentication and
-										JWT and localStorage to store encrypted user information
-										client side. Incorporated Bootstrap containers to facilitate
-										responsive design
+										Incorporated Bootstrap containers to facilitate responsive
+										design Frontend hosted on GitHub pages and the backend
+										hosted on Heroku
 									</li>
 								</ul>
 							</Card.Text>
@@ -66,16 +59,6 @@ const MyValueShopperInfo = () => {
 							/>
 							<img
 								className="mx-auto"
-								src={react}
-								style={{ width: 65, height: 65 }}
-							/>
-							<img
-								className="mx-auto"
-								src={redux}
-								style={{ width: 65, height: 65 }}
-							/>
-							<img
-								className="mx-auto"
 								src={postgresql}
 								style={{ width: 70, height: 70 }}
 							/>
@@ -94,16 +77,23 @@ const MyValueShopperInfo = () => {
 						<Card.Footer>
 							<Button onClick={() => setToggle(!toggle)}>Close Project</Button>
 							&nbsp;&nbsp;&nbsp;
-							<Button href="https://youtu.be/yQcJnGjOt14" target="_blank">
+							<Button href="https://youtu.be/VMXGTumM_XI" target="_blank">
 								Demo
+							</Button>
+							&nbsp;&nbsp;&nbsp;
+							<Button
+								href="https://cleansolllc.github.io/my-meal-planner-frontend-hold/"
+								target="_blank"
+							>
+								Hosted Application
 							</Button>
 						</Card.Footer>
 					</Card>
 				</Container>
 			) : (
-				<MyValueShopper />
+				<MyMealPlanner />
 			)}
 		</>
 	);
 };
-export default MyValueShopperInfo;
+export default MyMealPlannerInfo;

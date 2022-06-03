@@ -66,7 +66,7 @@ const CTCovidTrackerInfo = () => {
 							<img
 								className="mx-auto"
 								src={vscode}
-								style={{ width: 90, height: 60 }}
+								style={{ width: 125, height: 60 }}
 							/>
 							&nbsp;&nbsp;
 							<img
