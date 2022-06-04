@@ -2,6 +2,8 @@ import {
 	Container,
 	Card,
 	Button,
+	Row,
+	Col,
 	CardGroup,
 	Figure,
 	Badge,
@@ -30,16 +32,80 @@ const Home = () => {
 								<h1>Mark May</h1>
 								<h4>
 									<Badge bg="secondary">Full Stack Developer</Badge>&nbsp;
-									<Badge bg="secondary">Front-end Developer</Badge>&nbsp;
-									<Badge bg="secondary">Back-end Developer</Badge>&nbsp;
+									<Badge bg="secondary">Front-End Developer</Badge>&nbsp;
+									<Badge bg="secondary">Back-End Developer</Badge>&nbsp;
+									<Badge bg="secondary">An Entrepreneur Who Codes</Badge>&nbsp;
 								</h4>
 							</Fade>
 						</Figure>
-						<Card.Body>
+						<Fade bottom>
+							<CardGroup>
+								<Card>
+									<Card.Img variant="top" src="holder.js/100px160" />
+									<Card.Body>
+										<Card.Title>About Me</Card.Title>
+										<Card.Text>
+											I have over 20 years of building a high performance
+											customer-centric organization. I am currently Seeking to
+											combine the ability to build strong customer
+											relationships, prioritizing tasks and a commitment to
+											lifelong learning with my technical skills to design,
+											develop and deliver innovative software solutions to small
+											and medium-sized businesses.
+										</Card.Text>
+									</Card.Body>
+									<Card.Footer>
+										<small className="text-muted">
+											Last updated 3 mins ago
+										</small>
+									</Card.Footer>
+								</Card>
+								<Card>
+									<Card.Img variant="top" src="holder.js/100px160" />
+									<Card.Body>
+										<Card.Title>Card title</Card.Title>
+										<Card.Text>
+											This card has supporting text below as a natural lead-in
+											to additional content.{" "}
+										</Card.Text>
+									</Card.Body>
+									<Card.Footer>
+										<small className="text-muted">
+											Last updated 3 mins ago
+										</small>
+									</Card.Footer>
+								</Card>
+								<Card>
+									<Card.Img variant="top" src="holder.js/100px160" />
+									<Card.Body>
+										<Card.Title>Education</Card.Title>
+										<Card.Text>
+											<ul>
+												<li>
+													Flatiron School, New York, NY
+													<br />
+													Online Software Engineering Program
+													<br /> April, 2022
+												</li>
+												<br />
+												<li>
+													Bates College, Lewiston ME <br /> Bachelor of Arts,
+													Political Science <br /> May, 1990
+												</li>
+											</ul>
+										</Card.Text>
+									</Card.Body>
+									<Card.Footer>
+										<small className="text-muted">
+											Last updated 3 mins ago
+										</small>
+									</Card.Footer>
+								</Card>
+							</CardGroup>
+						</Fade>
+						{/* <Card.Body>
 							<Fade bottom>
-								<Card.Title>
-									Thank you for visiting my portfolio page!
-								</Card.Title>
+								<Card.Title>What I do</Card.Title>
 								<Card.Text>
 									The motto at the Flatiron School is “Change Things”. For me,
 									this is not simply a phrase but a mission that I have
@@ -58,12 +124,12 @@ const Home = () => {
 									need an evaluation of your code, let's talk!
 								</Card.Text>
 							</Fade>
-						</Card.Body>
-						<Card.Footer>
+						</Card.Body> */}
+						{/* <Card.Footer>
 							<Button size="sm" variant="primary">
 								Contact Me
 							</Button>
-						</Card.Footer>
+						</Card.Footer> */}
 					</Card>
 				</CardGroup>
 				{/* </Rotate> */}

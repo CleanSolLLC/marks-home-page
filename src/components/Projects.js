@@ -1,5 +1,4 @@
 import { Carousel } from "3d-react-carousal";
-import "../App.css";
 import MyValueShopper from "./MyvalueShopper";
 import CTCovidTracker from "./CTCovidTracker";
 import MyMealPlanner from "./MyMealPlanner";
