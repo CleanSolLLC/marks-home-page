@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/marks-home-page.git/static/css/main.4c66a680.chunk.css",
+    "main.js": "/marks-home-page.git/static/js/main.b5a254ff.chunk.js",
+    "main.js.map": "/marks-home-page.git/static/js/main.b5a254ff.chunk.js.map",
+    "runtime-main.js": "/marks-home-page.git/static/js/runtime-main.4576b3e6.js",
+    "runtime-main.js.map": "/marks-home-page.git/static/js/runtime-main.4576b3e6.js.map",
+    "static/js/2.1fa2e996.chunk.js": "/marks-home-page.git/static/js/2.1fa2e996.chunk.js",
+    "static/js/2.1fa2e996.chunk.js.map": "/marks-home-page.git/static/js/2.1fa2e996.chunk.js.map",
+    "index.html": "/marks-home-page.git/index.html",
+    "static/css/main.4c66a680.chunk.css.map": "/marks-home-page.git/static/css/main.4c66a680.chunk.css.map",
+    "static/js/2.1fa2e996.chunk.js.LICENSE.txt": "/marks-home-page.git/static/js/2.1fa2e996.chunk.js.LICENSE.txt",
+    "static/media/CTCovidTracker.45f6bf10.png": "/marks-home-page.git/static/media/CTCovidTracker.45f6bf10.png",
+    "static/media/MarkPic.5a0f6d4d.jpg": "/marks-home-page.git/static/media/MarkPic.5a0f6d4d.jpg",
+    "static/media/MyMealPlanner.1c7e6034.png": "/marks-home-page.git/static/media/MyMealPlanner.1c7e6034.png",
+    "static/media/MyvalueShopper.9409c801.png": "/marks-home-page.git/static/media/MyvalueShopper.9409c801.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4576b3e6.js",
+    "static/js/2.1fa2e996.chunk.js",
+    "static/css/main.4c66a680.chunk.css",
+    "static/js/main.b5a254ff.chunk.js"
+  ]
+}
