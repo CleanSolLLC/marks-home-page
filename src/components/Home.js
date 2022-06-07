@@ -1,13 +1,4 @@
-import {
-	Container,
-	Card,
-	Button,
-	Row,
-	Col,
-	CardGroup,
-	Figure,
-	Badge,
-} from "react-bootstrap";
+import { Container, Card, CardGroup, Figure, Badge } from "react-bootstrap";
 
 import MarkPic from "../images/MarkPic.jpg";
 import { Fade } from "react-awesome-reveal";
