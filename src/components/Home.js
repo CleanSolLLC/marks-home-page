@@ -10,7 +10,7 @@ import {
 } from "react-bootstrap";
 
 import MarkPic from "../images/MarkPic.jpg";
-import Fade from "react-reveal/Fade";
+import { Fade } from "react-awesome-reveal";
 
 const Home = () => {
 	return (
