@@ -7,7 +7,7 @@ import vscode from "../images/vscode.png";
 import rails from "../images/rails.jpg";
 import bstrap from "../images/bstrap.png";
 import MyMealPlanner from "./MyMealPlanner";
-import Fade from "react-reveal/Fade";
+import { Fade } from "react-awesome-reveal";
 
 const MyMealPlannerInfo = () => {
 	const [toggle, setToggle] = useState(false);
