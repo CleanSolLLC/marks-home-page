@@ -1,6 +1,4 @@
 import { Container, Row } from "react-bootstrap";
-import Contact from "./resume/Contact";
-import Summary from "./resume/Summary";
 
 const Resume = () => {
 	return (

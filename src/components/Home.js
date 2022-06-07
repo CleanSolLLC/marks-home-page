@@ -45,13 +45,14 @@ const Home = () => {
 									<Card.Body>
 										<Card.Title>About Me</Card.Title>
 										<Card.Text>
-											I have over 20 years of building a high performance
-											customer-centric organization. I am currently Seeking to
-											combine the ability to build strong customer
-											relationships, prioritizing tasks and a commitment to
-											lifelong learning with my technical skills to design,
-											develop and deliver innovative software solutions to small
-											and medium-sized businesses.
+											After 23 years of starting and scaling a high-performance
+											customer centric commercial cleaning company, I am seeking
+											a career transition to the software development field. My
+											goal is to combine my experience as an entrepreneur with
+											my technical skills to help small and medium sized
+											businesses achieve their mission through the design,
+											development, deployment, and maintenance of software
+											applications.
 										</Card.Text>
 									</Card.Body>
 									<Card.Footer>
