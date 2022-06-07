@@ -6,7 +6,7 @@ import postgresql from "../images/postgresql.jpg";
 import vscode from "../images/vscode.png";
 import bstrap from "../images/bstrap.png";
 import CTCovidTracker from "./CTCovidTracker";
-import Fade from "react-reveal/Fade";
+import { Fade } from "react-awesome-reveal";
 
 const CTCovidTrackerInfo = () => {
 	const [toggle, setToggle] = useState(false);

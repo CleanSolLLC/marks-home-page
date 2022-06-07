@@ -9,7 +9,7 @@ import vscode from "../images/vscode.png";
 import bstrap from "../images/bstrap.png";
 import HeaderRubyLogo from "../images/header-ruby-logo.png";
 import MyValueShopper from "./MyvalueShopper";
-import Fade from "react-reveal/Fade";
+import { Fade } from "react-awesome-reveal";
 
 const MyValueShopperInfo = () => {
 	const [toggle, setToggle] = useState(false);
