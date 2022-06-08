@@ -1,6 +1,7 @@
 import { Container, Card, CardGroup, Figure, Badge } from "react-bootstrap";
 
 import MarkPic from "../images/MarkPic.jpg";
+import { Slide } from "react-awesome-reveal";
 import { Fade } from "react-awesome-reveal";
 
 const Home = () => {
@@ -18,7 +19,7 @@ const Home = () => {
 								alt="Mark's Profile Image"
 								src={MarkPic}
 							/>
-							<Fade right>
+							<Slide direction="right">
 								<br />
 								<h1>Mark May</h1>
 								<h4>
@@ -27,9 +28,9 @@ const Home = () => {
 									<Badge bg="secondary">Back-End Developer</Badge>&nbsp;
 									<Badge bg="secondary">An Entrepreneur Who Codes</Badge>&nbsp;
 								</h4>
-							</Fade>
+							</Slide>
 						</Figure>
-						<Fade bottom>
+						<Fade triggerOnce direction="up">
 							<CardGroup>
 								<Card>
 									<Card.Img variant="top" src="holder.js/100px160" />

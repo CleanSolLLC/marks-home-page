@@ -13,7 +13,7 @@ const CTCovidTrackerInfo = () => {
 	return (
 		<>
 			{!toggle ? (
-				<Fade bottom>
+				<Fade triggerOnce direction="up">
 					<Container>
 						<CardGroup>
 							<Card>
