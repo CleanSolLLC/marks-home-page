@@ -6,12 +6,21 @@ const Resume = () => {
 			<Container>
 				<Row>
 					<iframe
-						src="https://onedrive.live.com/embed?cid=E05F0A11E752D75B&resid=E05F0A11E752D75B%213727&authkey=ABJ67G1H4wSAdAE&em=2"
-						width="1366"
-						height="623"
+						src="https://onedrive.live.com/embed?cid=E05F0A11E752D75B&amp;resid=E05F0A11E752D75B%213729&amp;authkey=ACW4wOICAsVntgE&amp;em=2&amp;wdStartOn=1"
+						width="476px"
+						height="288px"
 						frameborder="0"
-						scrolling="no"
-					></iframe>
+					>
+						This is an embedded{" "}
+						<a target="_blank" href="https://office.com">
+							Microsoft Office
+						</a>{" "}
+						document, powered by{" "}
+						<a target="_blank" href="https://office.com/webapps">
+							Office
+						</a>
+						.
+					</iframe>
 				</Row>
 			</Container>
 		</>
