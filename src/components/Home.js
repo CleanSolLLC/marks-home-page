@@ -3,6 +3,9 @@ import { Container, Card, CardGroup, Figure, Badge } from "react-bootstrap";
 import MarkPic from "../images/MarkPic.jpg";
 import { Slide } from "react-awesome-reveal";
 import { Fade } from "react-awesome-reveal";
+import { CodeSquare } from "react-bootstrap-icons";
+import { Mortarboard } from "react-bootstrap-icons";
+import { FileEarmarkPerson } from "react-bootstrap-icons";
 
 const Home = () => {
 	return (
@@ -33,7 +36,7 @@ const Home = () => {
 						<Fade triggerOnce direction="up">
 							<CardGroup>
 								<Card>
-									<Card.Img variant="top" src="holder.js/100px160" />
+									<FileEarmarkPerson size={40} />
 									<Card.Body>
 										<Card.Title>About Me</Card.Title>
 										<Card.Text>
@@ -54,12 +57,22 @@ const Home = () => {
 									</Card.Footer>
 								</Card>
 								<Card>
-									<Card.Img variant="top" src="holder.js/100px160" />
+									<CodeSquare size={35} />
 									<Card.Body>
-										<Card.Title>Card title</Card.Title>
+										<Card.Title>Skills</Card.Title>
 										<Card.Text>
-											This card has supporting text below as a natural lead-in
-											to additional content.{" "}
+											<ul>
+												<li>Ruby, Sinatra, Ruby on Rails</li>
+												<li>JavaScript, React JS, Redux</li>
+												<li>Object Oriented Programming</li>
+												<li>HTML, CSS, Bootstrap</li>
+												<li>SQL, PostgreSQL</li>
+												<li>Git, GitHub</li>
+												<li>MVC, Restful APIS</li>
+												<li>Linux</li>
+												<li>Heroku</li>
+												<li>Test Driven Development</li>
+											</ul>
 										</Card.Text>
 									</Card.Body>
 									<Card.Footer>
@@ -69,7 +82,7 @@ const Home = () => {
 									</Card.Footer>
 								</Card>
 								<Card>
-									<Card.Img variant="top" src="holder.js/100px160" />
+									<Mortarboard size={50} />
 									<Card.Body>
 										<Card.Title>Education</Card.Title>
 										<Card.Text>
