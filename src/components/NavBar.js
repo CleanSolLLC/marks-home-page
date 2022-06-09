@@ -12,7 +12,7 @@ export default function BasicExample() {
 	return (
 		<>
 			<Router>
-				<Navbar bg="primary" variant="dark" expand="lg">
+				<Navbar collapseOnSelect bg="primary" variant="dark" expand="lg">
 					<Navbar.Toggle aria-controls="basic-navbar-nav" />
 					<Navbar.Collapse id="basic-navbar-nav">
 						<Nav className="ml-auto">
@@ -99,16 +99,36 @@ export default function BasicExample() {
 						</Nav>
 
 						<Nav className="ms-auto links">
-							<Nav.Link style={{ fontSize: "18px" }} as={Link} to={"/"}>
+							<Nav.Link
+								style={{ fontSize: "18px" }}
+								eventKey="1"
+								as={Link}
+								to={"/"}
+							>
 								HOME
 							</Nav.Link>
-							<Nav.Link style={{ fontSize: "18px" }} as={Link} to={"/projects"}>
+							<Nav.Link
+								style={{ fontSize: "18px" }}
+								eventKey="2"
+								as={Link}
+								to={"/projects"}
+							>
 								PROJECTS
 							</Nav.Link>
-							<Nav.Link style={{ fontSize: "18px" }} as={Link} to={"/resume"}>
+							<Nav.Link
+								style={{ fontSize: "18px" }}
+								as={Link}
+								eventKey="3"
+								to={"/resume"}
+							>
 								RESUME
 							</Nav.Link>
-							<Nav.Link style={{ fontSize: "18px" }} as={Link} to={"/contact"}>
+							<Nav.Link
+								style={{ fontSize: "18px" }}
+								as={Link}
+								eventKey="4"
+								to={"/contact"}
+							>
 								CONTACT
 							</Nav.Link>
 						</Nav>
