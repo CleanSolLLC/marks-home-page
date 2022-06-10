@@ -93,18 +93,24 @@ const CTCovidTrackerInfo = () => {
 									/>
 								</Card.Footer>
 								<Card.Footer>
-									<Button href="https://youtu.be/UdyHcQuvjGc" target="_blank">
+									<Button
+										href="https://youtu.be/UdyHcQuvjGc"
+										size="sm"
+										target="_blank"
+									>
 										Demo
 									</Button>
 									&nbsp;&nbsp;&nbsp;
 									<Button
+										size="sm"
 										href="https://ct-covid-tracker.herokuapp.com"
 										target="_blank"
 									>
-										Hosted Application
+										Hosted App
 									</Button>
 									&nbsp;&nbsp;&nbsp;
 									<Button
+										size="sm"
 										href="https://medium.com/@mamark90/using-the-ruby-soda-active-hash-and-chartkick-gems-to-track-covid-19-cases-in-connecticut-4ef3e19a4cc5"
 										target="_blank"
 									>

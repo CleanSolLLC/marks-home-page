@@ -112,11 +112,16 @@ const MyValueShopperInfo = () => {
 									/>
 								</Card.Footer>
 								<Card.Footer>
-									<Button href="https://youtu.be/yQcJnGjOt14" target="_blank">
+									<Button
+										size="sm"
+										href="https://youtu.be/yQcJnGjOt14"
+										target="_blank"
+									>
 										Demo
 									</Button>
 									&nbsp;&nbsp;&nbsp;
 									<Button
+										size="sm"
 										href="https://medium.com/@mamark90/my-value-shopper-a-react-redux-rails-and-postgres-joint-9daf20ab6331"
 										target="_blank"
 									>

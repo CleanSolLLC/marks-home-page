@@ -2,6 +2,7 @@ import { Carousel } from "3d-react-carousal";
 import MyValueShopper from "./MyvalueShopper";
 import CTCovidTracker from "./CTCovidTracker";
 import MyMealPlanner from "./MyMealPlanner";
+import { Col, Container, Row } from "react-bootstrap";
 
 let slides = [<MyValueShopper />, <CTCovidTracker />, <MyMealPlanner />];
 
@@ -12,12 +13,18 @@ const callback = function (index) {
 const Projects = () => {
 	return (
 		<>
-			<Carousel
-				slides={slides}
-				autoplay={false}
-				interval={1000}
-				onSlideChange={callback}
-			/>
+			<Container fluid>
+				<Row>
+					<Col>
+						<Carousel
+							slides={slides}
+							autoplay={false}
+							interval={1000}
+							onSlideChange={callback}
+						/>
+					</Col>
+				</Row>
+			</Container>
 		</>
 	);
 };

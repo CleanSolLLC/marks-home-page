@@ -8,13 +8,15 @@ const MyMealPlanner = () => {
 	return (
 		<>
 			{!toggle ? (
-				<Container className="d-flex vh-100">
-					<Row className="m-auto align-self-center">
+				// <Container className="d-flex vh-100">
+				// 	<Row className="m-auto align-self-center">
+				<Container>
+					<Row>
 						<Col>
 							<Card>
 								<Card.Img variant="top" src={MyMealPlannerImg} />
 								<Card.Footer>
-									<Button onClick={() => setToggle(!toggle)}>
+									<Button size="sm" onClick={() => setToggle(!toggle)}>
 										{!toggle ? "Learn More" : "Close Project"}
 									</Button>
 								</Card.Footer>

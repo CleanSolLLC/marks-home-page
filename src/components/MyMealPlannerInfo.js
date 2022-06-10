@@ -95,11 +95,16 @@ const MyMealPlannerInfo = () => {
 									/>
 								</Card.Footer>
 								<Card.Footer>
-									<Button href="https://youtu.be/VMXGTumM_XI" target="_blank">
+									<Button
+										size="sm"
+										href="https://youtu.be/VMXGTumM_XI"
+										target="_blank"
+									>
 										Demo
 									</Button>
 									&nbsp;&nbsp;&nbsp;
 									<Button
+										size="sm"
 										href="https://cleansolllc.github.io/my-meal-planner-frontend-hold/"
 										target="_blank"
 									>
@@ -107,6 +112,7 @@ const MyMealPlannerInfo = () => {
 									</Button>
 									&nbsp;&nbsp;&nbsp;
 									<Button
+										size="sm"
 										href="https://medium.com/@mamark90/using-github-pages-heroku-and-bootstrap-cards-in-my-javascript-rails-project-to-find-recipes-4399bee3d32a"
 										target="_blank"
 									>
