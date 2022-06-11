@@ -51,8 +51,9 @@ const Home = () => {
 										</Card.Text>
 									</Card.Body>
 									<Card.Footer>
-										<small className="text-muted">
-											Last updated 3 mins ago
+										<small>
+											“Life is a succession of lessons which must be lived to be
+											understood” -Helen Keller
 										</small>
 									</Card.Footer>
 								</Card>
@@ -76,8 +77,9 @@ const Home = () => {
 										</Card.Text>
 									</Card.Body>
 									<Card.Footer>
-										<small className="text-muted">
-											Last updated 3 mins ago
+										<small>
+											It is ok to fail if there are lessons to be learned. “The
+											biggest lesson I had in my life was failure“ -Tim Rice
 										</small>
 									</Card.Footer>
 								</Card>
@@ -102,8 +104,9 @@ const Home = () => {
 										</Card.Text>
 									</Card.Body>
 									<Card.Footer>
-										<small className="text-muted">
-											Last updated 3 mins ago
+										<small>
+											“Surround yourself with people who are better than you…”
+											-Warren Buffet
 										</small>
 									</Card.Footer>
 								</Card>

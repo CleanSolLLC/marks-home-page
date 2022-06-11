@@ -123,14 +123,16 @@ export default function BasicExample() {
 							>
 								RESUME
 							</Nav.Link>
-							<Nav.Link
+
+							{/* Future Use
+								<Nav.Link
 								style={{ fontSize: "18px" }}
 								as={Link}
 								eventKey="4"
 								to={"/contact"}
 							>
 								CONTACT
-							</Nav.Link>
+							</Nav.Link> */}
 						</Nav>
 					</Navbar.Collapse>
 				</Navbar>
