@@ -1,4 +1,4 @@
-import { Container, Card, Button, CardGroup } from "react-bootstrap";
+import { Card, Button, CardGroup } from "react-bootstrap";
 import { useState } from "react";
 import HeaderRubyLogo from "../images/header-ruby-logo.png";
 import webDevBadges from "../images/webDevBadges.png";
@@ -15,7 +15,6 @@ const MyMealPlannerInfo = () => {
 		<>
 			{!toggle ? (
 				<Fade triggerOnce direction="up">
-					{/* <Container> */}
 					<CardGroup>
 						<Card>
 							<Button
@@ -108,7 +107,7 @@ const MyMealPlannerInfo = () => {
 									href="https://cleansolllc.github.io/my-meal-planner-frontend-hold/"
 									target="_blank"
 								>
-									Hosted Application
+									Try Me!
 								</Button>
 								&nbsp;&nbsp;&nbsp;
 								<Button
@@ -121,7 +120,6 @@ const MyMealPlannerInfo = () => {
 							</Card.Footer>
 						</Card>
 					</CardGroup>
-					{/* </Container> */}
 				</Fade>
 			) : (
 				<MyMealPlanner />

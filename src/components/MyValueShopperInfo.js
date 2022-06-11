@@ -1,4 +1,4 @@
-import { Container, Card, Button, CardGroup } from "react-bootstrap";
+import { Card, Button, CardGroup } from "react-bootstrap";
 import { useState } from "react";
 import rails from "../images/rails.jpg";
 import webDevBadges from "../images/webDevBadges.png";
@@ -17,7 +17,6 @@ const MyValueShopperInfo = () => {
 		<>
 			{!toggle ? (
 				<Fade triggerOnce direction="up">
-					{/* <Container> */}
 					<CardGroup>
 						<Card>
 							<Button
@@ -130,7 +129,6 @@ const MyValueShopperInfo = () => {
 							</Card.Footer>
 						</Card>
 					</CardGroup>
-					{/* </Container> */}
 				</Fade>
 			) : (
 				<MyValueShopper />

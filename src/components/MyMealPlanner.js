@@ -1,4 +1,4 @@
-import { Container, Card, Row, Col, Button } from "react-bootstrap";
+import { Card, Button } from "react-bootstrap";
 import MyMealPlannerImg from "../images/MyMealPlanner.png";
 import MyMealPlannerInfo from "./MyMealPlannerInfo";
 import { useState } from "react";
@@ -8,11 +8,6 @@ const MyMealPlanner = () => {
 	return (
 		<>
 			{!toggle ? (
-				// <Container className="d-flex vh-100">
-				// 	<Row className="m-auto align-self-center">
-				// <Container>
-				// 	<Row>
-				// 		<Col>
 				<Card>
 					<Card.Img variant="top" src={MyMealPlannerImg} />
 					<Card.Footer>
@@ -22,9 +17,6 @@ const MyMealPlanner = () => {
 					</Card.Footer>
 				</Card>
 			) : (
-				// 		</Col>
-				// 	</Row>
-				// </Container>
 				<MyMealPlannerInfo />
 			)}
 		</>

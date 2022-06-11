@@ -1,4 +1,4 @@
-import { Container, Card, Button, CardGroup, Row, Col } from "react-bootstrap";
+import { Card, Button, CardGroup } from "react-bootstrap";
 import { useState } from "react";
 import HeaderRubyLogo from "../images/header-ruby-logo.png";
 import rails from "../images/rails.jpg";
@@ -14,9 +14,6 @@ const CTCovidTrackerInfo = () => {
 		<>
 			{!toggle ? (
 				<Fade triggerOnce direction="up">
-					{/* <Container>
-						<Row>
-							<Col> */}
 					<CardGroup>
 						<Card>
 							<Button
@@ -108,7 +105,7 @@ const CTCovidTrackerInfo = () => {
 									href="https://ct-covid-tracker.herokuapp.com"
 									target="_blank"
 								>
-									Hosted App
+									Try Me!
 								</Button>
 								&nbsp;&nbsp;&nbsp;
 								<Button
@@ -121,9 +118,6 @@ const CTCovidTrackerInfo = () => {
 							</Card.Footer>
 						</Card>
 					</CardGroup>
-					{/* </Col>
-						</Row>
-					</Container> */}
 				</Fade>
 			) : (
 				<CTCovidTracker />
