@@ -18,7 +18,7 @@ body {
 	background-color: rgb(105, 189, 225);
 }
 @media screen and (orientation: portrait) {
-	#orientate {
+	.orientate {
 		width: 100%;
 	}
 }
@@ -26,7 +26,7 @@ body {
 /* For landscape, we want the tool bar stick on the left */
 
 @media screen and (orientation: landscape) {
-	#orientate {
+	.orientate {
 		position: fixed;
 		width: 2.65em;
 		height: 100%;

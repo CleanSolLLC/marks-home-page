@@ -13,10 +13,11 @@ const callback = function (index) {
 const Projects = () => {
 	return (
 		<>
-			<Container id="orientate">
+			<Container>
 				<Row>
 					<Col>
 						<Carousel
+							className="orientate"
 							slides={slides}
 							autoplay={false}
 							interval={1000}
