@@ -13,7 +13,7 @@ const callback = function (index) {
 const Projects = () => {
 	return (
 		<>
-			<Container fluid>
+			<Container id="orientate">
 				<Row>
 					<Col>
 						<Carousel
