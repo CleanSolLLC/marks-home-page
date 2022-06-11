@@ -11,21 +11,21 @@ const CTCovidTracker = () => {
 			{!toggle ? (
 				// <Container className="d-flex vh-100">
 				// 	<Row className="m-auto align-self-center">
-				<Container>
-					<Row>
-						<Col>
-							<Card>
-								<Card.Img variant="top" src={CTCovidTrackerImg} />
-								<Card.Footer>
-									<Button onClick={() => setToggle(!toggle)} size="sm">
-										{!toggle ? "Learn More" : "Close Project"}
-									</Button>
-								</Card.Footer>
-							</Card>
-						</Col>
-					</Row>
-				</Container>
+				// <Container>
+				// 	<Row>
+				// 		<Col>
+				<Card>
+					<Card.Img variant="top" src={CTCovidTrackerImg} />
+					<Card.Footer>
+						<Button onClick={() => setToggle(!toggle)} size="sm">
+							{!toggle ? "Learn More" : "Close Project"}
+						</Button>
+					</Card.Footer>
+				</Card>
 			) : (
+				// 		</Col>
+				// 	</Row>
+				// </Container>
 				<CTCovidTrackerInfo />
 			)}
 		</>
