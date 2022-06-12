@@ -23,7 +23,7 @@ const Home = () => {
 			<Container>
 				<Row>
 					<Col>
-						<CardGroup>
+						<CardGroup className="orientate">
 							<Card>
 								<Figure>
 									<Figure.Image
