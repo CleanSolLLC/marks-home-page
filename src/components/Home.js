@@ -1,4 +1,12 @@
-import { Container, Card, CardGroup, Figure, Badge } from "react-bootstrap";
+import {
+	Container,
+	Card,
+	CardGroup,
+	Figure,
+	Badge,
+	Row,
+	Col,
+} from "react-bootstrap";
 
 import MarkPic from "../images/MarkPic.jpg";
 import { Slide } from "react-awesome-reveal";
@@ -13,106 +21,110 @@ const Home = () => {
 			<br />
 
 			<Container>
-				<CardGroup>
-					<Card>
-						<Figure>
-							<Figure.Image
-								width={200}
-								height={200}
-								alt="Mark's Profile Image"
-								src={MarkPic}
-							/>
-							<Slide direction="right">
-								<br />
-								<h1>Mark May</h1>
-								<h4>
-									<Badge bg="secondary">Full Stack Developer</Badge>&nbsp;
-									<Badge bg="secondary">Front-End Developer</Badge>&nbsp;
-									<Badge bg="secondary">Back-End Developer</Badge>&nbsp;
-									<Badge bg="secondary">An Entrepreneur Who Codes</Badge>&nbsp;
-								</h4>
-							</Slide>
-						</Figure>
-						<Fade triggerOnce direction="up">
-							<CardGroup>
-								<Card>
-									<FileEarmarkPerson size={40} />
-									<Card.Body>
-										<Card.Title>About Me</Card.Title>
-										<Card.Text>
-											After 23 years of starting and scaling a high-performance
-											customer centric commercial cleaning company, I am seeking
-											a career transition to the software development field. My
-											goal is to combine my experience as an entrepreneur with
-											my technical skills to help small and medium sized
-											businesses achieve their mission through the design,
-											development, deployment, and maintenance of software
-											applications.
-										</Card.Text>
-									</Card.Body>
-									<Card.Footer>
-										<small>
-											“Life is a succession of lessons which must be lived to be
-											understood” -Helen Keller
-										</small>
-									</Card.Footer>
-								</Card>
-								<Card>
-									<CodeSquare size={35} />
-									<Card.Body>
-										<Card.Title>Skills</Card.Title>
-										<Card.Text>
-											<ul>
-												<li>Ruby, Sinatra, Ruby on Rails</li>
-												<li>JavaScript, React JS, Redux</li>
-												<li>Object Oriented Programming</li>
-												<li>HTML, CSS, Bootstrap</li>
-												<li>SQL, PostgreSQL</li>
-												<li>Git, GitHub</li>
-												<li>MVC, Restful APIS</li>
-												<li>Linux</li>
-												<li>Heroku</li>
-												<li>Test Driven Development</li>
-											</ul>
-										</Card.Text>
-									</Card.Body>
-									<Card.Footer>
-										<small>
-											It is ok to fail if there are lessons to be learned. “The
-											biggest lesson I had in my life was failure“ -Tim Rice
-										</small>
-									</Card.Footer>
-								</Card>
-								<Card>
-									<Mortarboard size={50} />
-									<Card.Body>
-										<Card.Title>Education</Card.Title>
-										<Card.Text>
-											<ul>
-												<li>
-													Flatiron School, New York, NY
-													<br />
-													Online Software Engineering Program
-													<br /> April, 2022
-												</li>
-												<br />
-												<li>
-													Bates College, Lewiston ME <br /> Bachelor of Arts,
-													Political Science <br /> May, 1990
-												</li>
-											</ul>
-										</Card.Text>
-									</Card.Body>
-									<Card.Footer>
-										<small>
-											“Surround yourself with people who are better than you…”
-											-Warren Buffet
-										</small>
-									</Card.Footer>
-								</Card>
-							</CardGroup>
-						</Fade>
-						{/* <Card.Body>
+				<Row>
+					<Col>
+						<CardGroup>
+							<Card>
+								<Figure>
+									<Figure.Image
+										width={200}
+										height={200}
+										alt="Mark's Profile Image"
+										src={MarkPic}
+									/>
+									<Slide direction="right">
+										<br />
+										<h1>Mark May</h1>
+										<h4>
+											<Badge bg="secondary">Full Stack Developer</Badge>&nbsp;
+											<Badge bg="secondary">Front-End Developer</Badge>&nbsp;
+											<Badge bg="secondary">Back-End Developer</Badge>&nbsp;
+											<Badge bg="secondary">An Entrepreneur Who Codes</Badge>
+											&nbsp;
+										</h4>
+									</Slide>
+								</Figure>
+								<Fade triggerOnce direction="up">
+									<CardGroup>
+										<Card>
+											<FileEarmarkPerson size={40} />
+											<Card.Body>
+												<Card.Title>About Me</Card.Title>
+												<Card.Text>
+													After 23 years of starting and scaling a
+													high-performance customer centric commercial cleaning
+													company, I am seeking a career transition to the
+													software development field. My goal is to combine my
+													experience as an entrepreneur with my technical skills
+													to help small and medium sized businesses achieve
+													their mission through the design, development,
+													deployment, and maintenance of software applications.
+												</Card.Text>
+											</Card.Body>
+											<Card.Footer>
+												<small>
+													“Life is a succession of lessons which must be lived
+													to be understood” -Helen Keller
+												</small>
+											</Card.Footer>
+										</Card>
+										<Card>
+											<CodeSquare size={35} />
+											<Card.Body>
+												<Card.Title>Skills</Card.Title>
+												<Card.Text>
+													<ul>
+														<li>Ruby, Sinatra, Ruby on Rails</li>
+														<li>JavaScript, React JS, Redux</li>
+														<li>Object Oriented Programming</li>
+														<li>HTML, CSS, Bootstrap</li>
+														<li>SQL, PostgreSQL</li>
+														<li>Git, GitHub</li>
+														<li>MVC, Restful APIS</li>
+														<li>Linux</li>
+														<li>Heroku</li>
+														<li>Test Driven Development</li>
+													</ul>
+												</Card.Text>
+											</Card.Body>
+											<Card.Footer>
+												<small>
+													It is ok to fail if there are lessons to be learned.
+													“The biggest lesson I had in my life was failure“ -Tim
+													Rice
+												</small>
+											</Card.Footer>
+										</Card>
+										<Card>
+											<Mortarboard size={50} />
+											<Card.Body>
+												<Card.Title>Education</Card.Title>
+												<Card.Text>
+													<ul>
+														<li>
+															Flatiron School, New York, NY
+															<br />
+															Online Software Engineering Program
+															<br /> April, 2022
+														</li>
+														<br />
+														<li>
+															Bates College, Lewiston ME <br /> Bachelor of
+															Arts, Political Science <br /> May, 1990
+														</li>
+													</ul>
+												</Card.Text>
+											</Card.Body>
+											<Card.Footer>
+												<small>
+													“Surround yourself with people who are better than
+													you…” -Warren Buffet
+												</small>
+											</Card.Footer>
+										</Card>
+									</CardGroup>
+								</Fade>
+								{/* <Card.Body>
 							<Fade bottom>
 								<Card.Title>What I do</Card.Title>
 								<Card.Text>
@@ -134,14 +146,16 @@ const Home = () => {
 								</Card.Text>
 							</Fade>
 						</Card.Body> */}
-						{/* <Card.Footer>
+								{/* <Card.Footer>
 							<Button size="sm" variant="primary">
 								Contact Me
 							</Button>
 						</Card.Footer> */}
-					</Card>
-				</CardGroup>
-				{/* </Rotate> */}
+							</Card>
+						</CardGroup>
+						{/* </Rotate> */}
+					</Col>
+				</Row>
 			</Container>
 
 			{/* </Zoom> */}
