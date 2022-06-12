@@ -27,8 +27,6 @@ body {
 
 @media screen and (orientation: landscape) {
 	.orientate {
-		position: fixed;
-		width: 2.65em;
-		height: 100%;
+		width: 100%;
 	}
 }
