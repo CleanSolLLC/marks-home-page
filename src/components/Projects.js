@@ -17,7 +17,6 @@ const Projects = () => {
 				<Row>
 					<Col>
 						<Carousel
-							//className="orientate"
 							slides={slides}
 							autoplay={false}
 							interval={1000}
