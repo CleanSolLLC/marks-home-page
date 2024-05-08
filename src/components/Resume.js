@@ -7,7 +7,7 @@ const Resume = () => {
 				<Row>
 					<iframe
 						title="Mark's Resume"
-						src="https://onedrive.live.com/embed?cid=E05F0A11E752D75B&amp;resid=E05F0A11E752D75B%213729&amp;authkey=ACW4wOICAsVntgE&amp;em=2&amp;wdStartOn=1"
+						src="https://onedrive.live.com/embed?resid=E05F0A11E752D75B%214002&amp;authkey=!ALuD3j2s7zWK1zU&amp;em=2"
 						rel="noreferrer"
 						width="476px"
 						height="650px"
